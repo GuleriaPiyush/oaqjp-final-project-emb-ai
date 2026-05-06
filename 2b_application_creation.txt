@@ -1,0 +1,7 @@
+$ python3
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [Clang 14.0.0] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I love this new technology.")
+'{\n  "emotionPredictions": [\n    {\n      "emotion": {\n        "anger": 0.006274985,\n        "disgust": 0.0025603734,\n        "fear": 0.009252003,\n        "joy": 0.96883714,\n        "sadness": 0.016335193\n      }\n    }\n  ],\n  "producerId": {\n    "name": "Ensembleed Nlp Emotion Workflow",\n    "version": "1.0.0"\n  }\n}'
+>>> 

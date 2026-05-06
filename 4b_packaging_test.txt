@@ -1,0 +1,7 @@
+$ python3
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [Clang 14.0.0] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection import emotion_detector
+>>> emotion_detector("I hate working long hours.")
+{'anger': 0.958891544, 'disgust': 0.021742468, 'fear': 0.006677943, 'joy': 0.00301025, 'sadness': 0.016399061, 'dominant_emotion': 'anger'}
+>>> 
